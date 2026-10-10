@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Siddhant Mhaske — SDET Resume</title>
+  <style>
+    @page { size: A4; margin: 0.42in 0.5in 0.38in 0.5in; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: #fff;
+      color: #1a1a1a;
+      font-family: Calibri, "Segoe UI", Arial, sans-serif;
+      font-size: 10.15pt;
+      line-height: 1.28;
+    }
+    .name {
+      font-size: 18.5pt;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      text-align: center;
+      line-height: 1.15;
+    }
+    .title {
+      text-align: center;
+      font-size: 10.4pt;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+    .contact {
+      text-align: center;
+      font-size: 9.4pt;
+      margin-top: 3px;
+      color: #222;
+    }
+    h2 {
+      font-size: 10.3pt;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      border-bottom: 1.15px solid #222;
+      margin: 9px 0 5px;
+      padding-bottom: 1px;
+    }
+    .summary { text-align: justify; }
+    .skills { width: 100%; border-collapse: collapse; }
+    .skills td { vertical-align: top; padding: 1px 0 2px; }
+    .skills .k {
+      width: 118px;
+      font-weight: 700;
+      white-space: nowrap;
+      padding-right: 8px;
+    }
+    .job {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 3px;
+    }
+    .job .left { font-weight: 700; }
+    .job .role { font-weight: 600; }
+    .job .dates { white-space: nowrap; font-weight: 600; }
+    ul { padding-left: 16px; }
+    li { margin: 0 0 3.5px; text-align: justify; }
+    .edu {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .edu .dates { white-space: nowrap; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="name">SIDDHANT MHASKE</div>
+  <div class="title">SDET | QA Automation Engineer | 4 Years</div>
+  <div class="contact">
+    +91 8485073659 &nbsp;|&nbsp; siddhant.mh2@gmail.com &nbsp;|&nbsp; Pune, India &nbsp;|&nbsp; linkedin.com/in/siddhantmhaske
+  </div>
+
+  <h2>Summary</h2>
+  <p class="summary">
+    SDET with 4 years at Amdocs building Java/Selenium, Playwright, and API automation for telecom BSS applications.
+    Delivered a 200+ scenario suite that cut regression from 3 days to 6 hours, validated 50+ APIs, and found 30+ backend defects with SQL.
+    Work daily across Jenkins, GitHub Actions, Docker, Kubernetes, and GCP, and use Cursor and GitHub Copilot to speed test authoring and reviews.
+  </p>
+
+  <h2>Technical Skills</h2>
+  <table class="skills">
+    <tr>
+      <td class="k">Automation</td>
+      <td>Java, Selenium WebDriver, Playwright, TestNG, Maven, Page Object Model, Data-Driven Testing, Selenium Grid, Cucumber (BDD)</td>
+    </tr>
+    <tr>
+      <td class="k">API &amp; Data</td>
+      <td>Rest Assured, Postman, SOAP UI, SQL (MySQL, PostgreSQL), Redis</td>
+    </tr>
+    <tr>
+      <td class="k">CI/CD &amp; Cloud</td>
+      <td>Jenkins, GitHub Actions, Docker, Kubernetes, Terraform, GCP, Git, Linux</td>
+    </tr>
+    <tr>
+      <td class="k">Quality</td>
+      <td>Functional, Regression, Smoke, Sanity, API, Integration, E2E &nbsp;|&nbsp; Agile/Scrum &nbsp;|&nbsp; JIRA, ALM, Octane</td>
+    </tr>
+    <tr>
+      <td class="k">AI-assisted</td>
+      <td>Cursor, GitHub Copilot, GitHub Copilot Agents, Microsoft Copilot Studio, Prompt Engineering</td>
+    </tr>
+  </table>
+
+  <h2>Professional Experience</h2>
+  <div class="job">
+    <div class="left"><span class="role">Software Test Engineer (SDET)</span> &nbsp;|&nbsp; Amdocs, Pune (Telecom BSS)</div>
+    <div class="dates">Sep 2022 – Present</div>
+  </div>
+  <ul>
+    <li>Design and maintain a Java, TestNG, Maven POM framework for telecom BSS modules covering 200+ functional, regression, smoke, and sanity scenarios, with TestNG DataProviders driving 10–15 business cases per method.</li>
+    <li>Build and run Playwright suites for cross-browser testing using Inspector, Trace Viewer, and auto-wait to cut flake versus Selenium-only runs; keep both frameworks in the release path.</li>
+    <li>Cut release validation from 3 days to 6 hours and reduced manual regression effort by ~60% by automating critical paths and executing them on every deployment.</li>
+    <li>Automate 50+ REST and SOAP endpoints with Rest Assured, Postman, and SOAP UI (status, payload, and response checks) so API defects fail before UI regression.</li>
+    <li>Validate MySQL and PostgreSQL data against UI/API results and identified 30+ critical integrity defects that never appeared in the UI.</li>
+    <li>Parallelize Selenium Grid across 3 browsers and reduced suite wall-clock time by ~40%; write Cucumber (BDD) scenarios where the squad needs readable business coverage.</li>
+    <li>Own multi-stage Jenkins (Jenkinsfile, Linux shell) and GitHub Actions pipelines so tests run on every build and pull request, lowering defect escape into production.</li>
+    <li>Deploy and validate microservices on GCP using Docker, Kubernetes, and Terraform (images and manifests for 5+ services with Redis and PostgreSQL); run API and service-level checks after each deploy.</li>
+    <li>Use Cursor, GitHub Copilot, and Copilot Agents daily to scaffold tests, refactor page objects, and review PRs; built a Microsoft Copilot Studio flow that converts Excel scenarios into ALM cases and cut documentation time ~80%.</li>
+    <li>Manage planning and defects in JIRA, ALM, and Octane across Agile/Scrum; contributed to 10+ major releases and mentored 2–3 junior engineers on automation standards.</li>
+  </ul>
+
+  <h2>Education</h2>
+  <div class="edu">
+    <div>BE in Computer Engineering — RMD Sinhgad School of Engineering, Pune &nbsp;|&nbsp; 9.04 CGPA</div>
+    <div class="dates">2018 – 2022</div>
+  </div>
+</body>
+</html>
